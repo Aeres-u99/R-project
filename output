@@ -1,0 +1,244 @@
+'data.frame':	32561 obs. of  15 variables:
+ $ age           : int  39 50 38 53 28 37 49 52 31 42 ...
+ $ workclass     : Factor w/ 9 levels " ?"," Federal-gov",..: 8 7 5 5 5 5 5 7 5 5 ...
+ $ fnlwgt        : int  77516 83311 215646 234721 338409 284582 160187 209642 45781 159449 ...
+ $ education     : Factor w/ 16 levels " 10th"," 11th",..: 10 10 12 2 10 13 7 12 13 10 ...
+ $ education.num : int  13 13 9 7 13 14 5 9 14 13 ...
+ $ marital.status: Factor w/ 7 levels " Divorced"," Married-AF-spouse",..: 5 3 1 3 3 3 4 3 5 3 ...
+ $ occupation    : Factor w/ 15 levels " ?"," Adm-clerical",..: 2 5 7 7 11 5 9 5 11 5 ...
+ $ relationship  : Factor w/ 6 levels " Husband"," Not-in-family",..: 2 1 2 1 6 6 2 1 2 1 ...
+ $ race          : Factor w/ 5 levels " Amer-Indian-Eskimo",..: 5 5 5 3 3 5 3 5 5 5 ...
+ $ sex           : Factor w/ 2 levels " Female"," Male": 2 2 2 2 1 1 1 2 1 2 ...
+ $ capital.gain  : int  2174 0 0 0 0 0 0 0 14084 5178 ...
+ $ capital.loss  : int  0 0 0 0 0 0 0 0 0 0 ...
+ $ house.per.week: int  40 13 40 40 40 40 16 45 50 40 ...
+ $ native.country: Factor w/ 42 levels " ?"," Cambodia",..: 40 40 40 40 6 40 24 40 40 40 ...
+ $ income        : Factor w/ 2 levels " <=50K"," >50K": 1 1 1 1 1 1 1 2 2 2 ...
+      age                    workclass         fnlwgt       
+ Min.   :17.00    Private         :22696   Min.   :  12285  
+ 1st Qu.:28.00    Self-emp-not-inc: 2541   1st Qu.: 117827  
+ Median :37.00    Local-gov       : 2093   Median : 178356  
+ Mean   :38.58    ?               : 1836   Mean   : 189778  
+ 3rd Qu.:48.00    State-gov       : 1298   3rd Qu.: 237051  
+ Max.   :90.00    Self-emp-inc    : 1116   Max.   :1484705  
+                 (Other)          :  981                    
+         education     education.num                  marital.status 
+  HS-grad     :10501   Min.   : 1.00    Divorced             : 4443  
+  Some-college: 7291   1st Qu.: 9.00    Married-AF-spouse    :   23  
+  Bachelors   : 5355   Median :10.00    Married-civ-spouse   :14976  
+  Masters     : 1723   Mean   :10.08    Married-spouse-absent:  418  
+  Assoc-voc   : 1382   3rd Qu.:12.00    Never-married        :10683  
+  11th        : 1175   Max.   :16.00    Separated            : 1025  
+ (Other)      : 5134                    Widowed              :  993  
+            occupation            relationship                    race      
+  Prof-specialty :4140    Husband       :13193    Amer-Indian-Eskimo:  311  
+  Craft-repair   :4099    Not-in-family : 8305    Asian-Pac-Islander: 1039  
+  Exec-managerial:4066    Other-relative:  981    Black             : 3124  
+  Adm-clerical   :3770    Own-child     : 5068    Other             :  271  
+  Sales          :3650    Unmarried     : 3446    White             :27816  
+  Other-service  :3295    Wife          : 1568                              
+ (Other)         :9541                                                      
+      sex         capital.gain    capital.loss    house.per.week 
+  Female:10771   Min.   :    0   Min.   :   0.0   Min.   : 1.00  
+  Male  :21790   1st Qu.:    0   1st Qu.:   0.0   1st Qu.:40.00  
+                 Median :    0   Median :   0.0   Median :40.00  
+                 Mean   : 1078   Mean   :  87.3   Mean   :40.44  
+                 3rd Qu.:    0   3rd Qu.:   0.0   3rd Qu.:45.00  
+                 Max.   :99999   Max.   :4356.0   Max.   :99.00  
+                                                                 
+        native.country     income     
+  United-States:29170    <=50K:24720  
+  Mexico       :  643    >50K : 7841  
+  ?            :  583                 
+  Philippines  :  198                 
+  Germany      :  137                 
+  Canada       :  121                 
+ (Other)       : 1709                 
+           age      workclass         fnlwgt      education  education.num 
+             0              0              0              0              0 
+marital.status     occupation   relationship           race            sex 
+             0              0              0              0              0 
+  capital.gain   capital.loss house.per.week native.country         income 
+             0              0              0              0              0 
+           age      workclass         fnlwgt      education  education.num 
+            73              9          21648             16             16 
+marital.status     occupation   relationship           race            sex 
+             7             15              6              5              2 
+  capital.gain   capital.loss house.per.week native.country         income 
+           119             92             94             42              2 
+
+ TRUE 
+32561 
+'data.frame':	32561 obs. of  15 variables:
+ $ age           : int  39 50 38 53 28 37 49 52 31 42 ...
+ $ workclass     : Factor w/ 9 levels " ?"," Federal-gov",..: 8 7 5 5 5 5 5 7 5 5 ...
+ $ fnlwgt        : int  77516 83311 215646 234721 338409 284582 160187 209642 45781 159449 ...
+ $ education     : Factor w/ 16 levels " 10th"," 11th",..: 10 10 12 2 10 13 7 12 13 10 ...
+ $ education.num : int  13 13 9 7 13 14 5 9 14 13 ...
+ $ marital.status: Factor w/ 7 levels " Divorced"," Married-AF-spouse",..: 5 3 1 3 3 3 4 3 5 3 ...
+ $ occupation    : Factor w/ 15 levels " ?"," Adm-clerical",..: 2 5 7 7 11 5 9 5 11 5 ...
+ $ relationship  : Factor w/ 6 levels " Husband"," Not-in-family",..: 2 1 2 1 6 6 2 1 2 1 ...
+ $ race          : Factor w/ 5 levels " Amer-Indian-Eskimo",..: 5 5 5 3 3 5 3 5 5 5 ...
+ $ sex           : Factor w/ 2 levels " Female"," Male": 2 2 2 2 1 1 1 2 1 2 ...
+ $ capital.gain  : int  2174 0 0 0 0 0 0 0 14084 5178 ...
+ $ capital.loss  : int  0 0 0 0 0 0 0 0 0 0 ...
+ $ house.per.week: int  40 13 40 40 40 40 16 45 50 40 ...
+ $ native.country: Factor w/ 42 levels " ?"," Cambodia",..: 40 40 40 40 6 40 24 40 40 40 ...
+ $ income        : Factor w/ 2 levels " <=50K"," >50K": 1 1 1 1 1 1 1 2 2 2 ...
+      age                    workclass             education    
+ Min.   :17.00    Private         :22696    HS-grad     :10501  
+ 1st Qu.:28.00    Self-emp-not-inc: 2541    Some-college: 7291  
+ Median :37.00    Local-gov       : 2093    Bachelors   : 5355  
+ Mean   :38.58    ?               : 1836    Masters     : 1723  
+ 3rd Qu.:48.00    State-gov       : 1298    Assoc-voc   : 1382  
+ Max.   :90.00    Self-emp-inc    : 1116    11th        : 1175  
+                 (Other)          :  981   (Other)      : 5134  
+ education.num                  marital.status             occupation  
+ Min.   : 1.00    Divorced             : 4443    Prof-specialty :4140  
+ 1st Qu.: 9.00    Married-AF-spouse    :   23    Craft-repair   :4099  
+ Median :10.00    Married-civ-spouse   :14976    Exec-managerial:4066  
+ Mean   :10.08    Married-spouse-absent:  418    Adm-clerical   :3770  
+ 3rd Qu.:12.00    Never-married        :10683    Sales          :3650  
+ Max.   :16.00    Separated            : 1025    Other-service  :3295  
+                  Widowed              :  993   (Other)         :9541  
+          relationship                    race            sex       
+  Husband       :13193    Amer-Indian-Eskimo:  311    Female:10771  
+  Not-in-family : 8305    Asian-Pac-Islander: 1039    Male  :21790  
+  Other-relative:  981    Black             : 3124                  
+  Own-child     : 5068    Other             :  271                  
+  Unmarried     : 3446    White             :27816                  
+  Wife          : 1568                                              
+                                                                    
+  capital.gain    capital.loss    house.per.week  income   
+ Min.   :    0   Min.   :   0.0   Min.   : 1.00   0:24720  
+ 1st Qu.:    0   1st Qu.:   0.0   1st Qu.:40.00   1: 7841  
+ Median :    0   Median :   0.0   Median :40.00            
+ Mean   : 1078   Mean   :  87.3   Mean   :40.44            
+ 3rd Qu.:    0   3rd Qu.:   0.0   3rd Qu.:45.00            
+ Max.   :99999   Max.   :4356.0   Max.   :99.00            
+                                                           
+'data.frame':	32561 obs. of  13 variables:
+ $ age           : int  39 50 38 53 28 37 49 52 31 42 ...
+ $ workclass     : Factor w/ 9 levels " ?"," Federal-gov",..: 8 7 5 5 5 5 5 7 5 5 ...
+ $ education     : Factor w/ 16 levels " 10th"," 11th",..: 10 10 12 2 10 13 7 12 13 10 ...
+ $ education.num : int  13 13 9 7 13 14 5 9 14 13 ...
+ $ marital.status: Factor w/ 7 levels " Divorced"," Married-AF-spouse",..: 5 3 1 3 3 3 4 3 5 3 ...
+ $ occupation    : Factor w/ 15 levels " ?"," Adm-clerical",..: 2 5 7 7 11 5 9 5 11 5 ...
+ $ relationship  : Factor w/ 6 levels " Husband"," Not-in-family",..: 2 1 2 1 6 6 2 1 2 1 ...
+ $ race          : Factor w/ 5 levels " Amer-Indian-Eskimo",..: 5 5 5 3 3 5 3 5 5 5 ...
+ $ sex           : Factor w/ 2 levels " Female"," Male": 2 2 2 2 1 1 1 2 1 2 ...
+ $ capital.gain  : int  2174 0 0 0 0 0 0 0 14084 5178 ...
+ $ capital.loss  : int  0 0 0 0 0 0 0 0 0 0 ...
+ $ house.per.week: int  40 13 40 40 40 40 16 45 50 40 ...
+ $ income        : Factor w/ 2 levels "0","1": 1 1 1 1 1 1 1 2 2 2 ...
+# A tibble: 1 x 1
+      n
+  <int>
+1 32561
+
+Call:
+glm(formula = income ~ ., family = binomial(link = "logit"), 
+    data = train)
+
+Deviance Residuals: 
+    Min       1Q   Median       3Q      Max  
+-4.9275  -0.5171  -0.1885  -0.0327   3.2694  
+
+Coefficients: (2 not defined because of singularities)
+                                       Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                          -8.325e+00  4.908e-01 -16.963  < 2e-16 ***
+age                                   2.505e-02  1.932e-03  12.961  < 2e-16 ***
+workclass Federal-gov                 1.100e+00  1.818e-01   6.055 1.41e-09 ***
+workclass Local-gov                   4.509e-01  1.660e-01   2.716 0.006599 ** 
+workclass Never-worked               -9.225e+00  6.808e+02  -0.014 0.989189    
+workclass Private                     6.245e-01  1.481e-01   4.216 2.49e-05 ***
+workclass Self-emp-inc                8.046e-01  1.766e-01   4.557 5.20e-06 ***
+workclass Self-emp-not-inc            1.674e-01  1.623e-01   1.031 0.302392    
+workclass State-gov                   2.851e-01  1.804e-01   1.580 0.114139    
+workclass Without-pay                -1.279e+01  4.165e+02  -0.031 0.975497    
+education 11th                        3.831e-02  2.421e-01   0.158 0.874287    
+education 12th                        3.946e-01  3.182e-01   1.240 0.214856    
+education 1st-4th                    -5.194e-01  5.324e-01  -0.976 0.329244    
+education 5th-6th                    -4.645e-01  3.784e-01  -1.228 0.219579    
+education 7th-8th                    -4.160e-01  2.683e-01  -1.550 0.121113    
+education 9th                        -4.346e-01  3.154e-01  -1.378 0.168233    
+education Assoc-acdm                  1.312e+00  2.054e-01   6.388 1.68e-10 ***
+education Assoc-voc                   1.307e+00  1.972e-01   6.627 3.43e-11 ***
+education Bachelors                   1.885e+00  1.821e-01  10.351  < 2e-16 ***
+education Doctorate                   2.840e+00  2.522e-01  11.261  < 2e-16 ***
+education HS-grad                     7.689e-01  1.773e-01   4.336 1.45e-05 ***
+education Masters                     2.181e+00  1.947e-01  11.204  < 2e-16 ***
+education Preschool                  -1.996e+01  2.167e+02  -0.092 0.926598    
+education Prof-school                 2.614e+00  2.353e-01  11.109  < 2e-16 ***
+education Some-college                1.062e+00  1.802e-01   5.897 3.71e-09 ***
+education.num                                NA         NA      NA       NA    
+marital.status Married-AF-spouse      2.687e+00  6.768e-01   3.970 7.19e-05 ***
+marital.status Married-civ-spouse     2.246e+00  3.188e-01   7.043 1.88e-12 ***
+marital.status Married-spouse-absent -2.308e-02  2.629e-01  -0.088 0.930043    
+marital.status Never-married         -3.864e-01  1.039e-01  -3.718 0.000201 ***
+marital.status Separated              5.553e-02  1.931e-01   0.288 0.773704    
+marital.status Widowed                1.271e-01  1.917e-01   0.663 0.507395    
+occupation Adm-clerical               1.184e-02  1.163e-01   0.102 0.918946    
+occupation Armed-Forces              -1.325e+01  5.210e+02  -0.025 0.979717    
+occupation Craft-repair               1.318e-01  9.983e-02   1.320 0.186672    
+occupation Exec-managerial            8.385e-01  1.027e-01   8.166 3.19e-16 ***
+occupation Farming-fishing           -9.949e-01  1.696e-01  -5.867 4.45e-09 ***
+occupation Handlers-cleaners         -6.268e-01  1.732e-01  -3.620 0.000295 ***
+occupation Machine-op-inspct         -3.041e-01  1.256e-01  -2.420 0.015510 *  
+occupation Other-service             -7.233e-01  1.435e-01  -5.041 4.63e-07 ***
+occupation Priv-house-serv           -1.205e+01  1.174e+02  -0.103 0.918289    
+occupation Prof-specialty             6.148e-01  1.103e-01   5.573 2.50e-08 ***
+occupation Protective-serv            5.988e-01  1.526e-01   3.924 8.70e-05 ***
+occupation Sales                      2.675e-01  1.058e-01   2.527 0.011507 *  
+occupation Tech-support               7.188e-01  1.403e-01   5.125 2.98e-07 ***
+occupation Transport-moving                  NA         NA      NA       NA    
+relationship Not-in-family            5.715e-01  3.148e-01   1.815 0.069470 .  
+relationship Other-relative          -5.502e-01  2.934e-01  -1.876 0.060718 .  
+relationship Own-child               -6.178e-01  3.113e-01  -1.984 0.047209 *  
+relationship Unmarried                3.774e-01  3.342e-01   1.129 0.258751    
+relationship Wife                     1.357e+00  1.213e-01  11.193  < 2e-16 ***
+race Asian-Pac-Islander               2.078e-01  2.824e-01   0.736 0.461944    
+race Black                            3.286e-01  2.690e-01   1.222 0.221864    
+race Other                           -5.340e-01  4.306e-01  -1.240 0.214975    
+race White                            4.402e-01  2.565e-01   1.716 0.086104 .  
+sex Male                              8.320e-01  9.420e-02   8.832  < 2e-16 ***
+capital.gain                          3.039e-04  1.187e-05  25.598  < 2e-16 ***
+capital.loss                          6.484e-04  4.445e-05  14.587  < 2e-16 ***
+house.per.week                        2.919e-02  1.934e-03  15.094  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+(Dispersion parameter for binomial family taken to be 1)
+
+    Null deviance: 25044  on 22792  degrees of freedom
+Residual deviance: 14581  on 22736  degrees of freedom
+AIC: 14695
+
+Number of Fisher Scoring iterations: 14
+
+Analysis of Deviance Table
+
+Model: binomial, link: logit
+
+Response: income
+
+Terms added sequentially (first to last)
+
+
+               Df Deviance Resid. Df Resid. Dev  Pr(>Chi)    
+NULL                           22792      25044              
+age             1   1152.1     22791      23892 < 2.2e-16 ***
+workclass       8    558.3     22783      23334 < 2.2e-16 ***
+education      15   2551.2     22768      20783 < 2.2e-16 ***
+education.num   0      0.0     22768      20783              
+marital.status  6   3687.4     22762      17096 < 2.2e-16 ***
+occupation     13    552.5     22749      16543 < 2.2e-16 ***
+relationship    5    165.6     22744      16377 < 2.2e-16 ***
+race            4     19.9     22740      16358 0.0005324 ***
+sex             1    105.8     22739      16252 < 2.2e-16 ***
+capital.gain    1   1210.5     22738      15041 < 2.2e-16 ***
+capital.loss    1    227.1     22737      14814 < 2.2e-16 ***
+house.per.week  1    233.4     22736      14581 < 2.2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+[1] "Accuracy : 0.851776026205343"

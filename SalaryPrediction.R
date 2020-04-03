@@ -1,6 +1,4 @@
-q()
 income <- read.csv('adult.csv',na.strings = c('','?'))
-str(income0
 str(income)
 summary(income)
 sapply(income,function(x) sum(is.na(x)))
@@ -15,10 +13,7 @@ p1 <- ggplot(aes(x=income, y=age), data = income) + geom_boxplot() +
   ggtitle('Age vs. Income Level')
 p2 <- ggplot(aes(x=income, y=education.num), data = income) + geom_boxplot() +
   ggtitle('Years of Education vs. Income Level')
-str(incomeo)
-str(income)
-p3 <- ggplot(aes(x=income, y=hours.per.week), data = income) + geom_boxplot() + 
-p3 <- ggplot(aes(x=income, y=house.per.week), data = income) + geom_boxplot() + 
+str(income) 
 p3 <- ggplot(aes(x=income, y=house.per.week), data = income) + geom_boxplot() + ggtitle('Hours Per week vs. Income Level')
 p4 <- ggplot(aes(x=income, y=capital.gain), data=income) + geom_boxplot() + 
   ggtitle('Capital Gain vs. Income Level')
@@ -56,9 +51,8 @@ income$income = as.factor(ifelse(income$income==income$income[1],0,1))
 #basically if >50k it will be set to 1 else to 0
 summary(income)
 str(income)
-len(income)
+#len(income)
 count(income)
-train <- income(22793)
 train <- income[1:22793,]
 test <- income[22793:32561,]
 model <-glm(income ~.,family=binomial(link='logit'),data=train)
@@ -68,11 +62,4 @@ fitted.results <- predict(model,newdata=test,type='response')
 fitted.results <- ifelse(fitted.results > 0.5,1,0)
 misClasificError <- mean(fitted.results != test$income)
 print(paste('Accuracy :',1-misClasificError))
-library(ROCR)
-install.packages(ROCR)
-R CMD INSTALL ROCR_1.0-1.tar.gz
-install.packages(gplot)
-q()
-getwd()
-ls()
-savehistory(file="SalaryPrediction")
+
