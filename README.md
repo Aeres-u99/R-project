@@ -1,7 +1,7 @@
 # R-project
 
 ## Predict Income Level from Census Data
-*-
+
 The data was extracted from 1994 Census bureau database. Please view the adult.csv file for the dataset, this dataset is what is being used in the entire study of ours.
 
 `income <- read.csv('adult.csv', na.strings = c('','?'))`
