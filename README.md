@@ -1,7 +1,7 @@
 # R-project
 
-##Predict Income Level from Census Data
-*-*-*
+## Predict Income Level from Census Data
+
 The data was extracted from 1994 Census bureau database. Please view the adult.csv file for the dataset, this dataset is what is being used in the entire study of ours.
 
 `income <- read.csv('adult.csv', na.strings = c('','?'))`
@@ -19,7 +19,7 @@ table (complete.cases (income))`
 
 This basically allows us to see the plot of missing and observed data.
 
-==Check Rplots.pdf for the plot==
+`Check Rplots.pdf for the plot`
 
 Since the dataset has already been cleaned running it up again, will not show any false values. 
 
